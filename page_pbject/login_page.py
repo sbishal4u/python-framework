@@ -23,7 +23,7 @@ class LoginPage(BasePage):
                 "//ul[starts-with(@class,'c-projects')]/li[1]/div//self::div[@class='o-flex']//self::button[starts-with(@class,'c-project__btn c-btn c-btn- c-btn')]")
 
     logout = (By.XPATH, "//div[starts-with(@class,'o-wrapper c-header')]/div[2]/div[3]/span[1]")
-    logout1 = (By.XPATH, "//div[@role='listbox']/div[2]/div[3]/span[1]")
+    logout1 = (By.XPATH, "//div[contains(text(),'Logout')]")
 
     def go_login_tab(self):
         self.wait_for(self.loginTab)
