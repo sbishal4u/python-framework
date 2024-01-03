@@ -1,0 +1,17 @@
+
+class DataTest:
+    Url = "https://e4a.alpha.egwhite.net/"
+    uname = "amol_translator_001@yopmail.com"
+    pwd = "NicePassword@1900"
+    translator = "amol_translator_001@yopmail.com"
+    reviewer = "arjun_reviewer_001@yopmail.com"
+    approver = "ansh_approver_001@yopmail.com"
+    editor = "anay_editor_001@yopmail.com"
+    content = "Oceania"
+    language = "Aari"
+    division = "GMEU - Middle East and North Africa Union Mission"
+    union = "EGYF - Egypt-Sudan Field"
+    Translate = "GMEU Text"
+    bookName = "pMRTYqCLWO"
+    Search_book = "The Desire"
+    testDataSet = "Die verhaal van verlossing, deur die begaafde skrywer Ellen G. White, is 'n boek wat vir hierdie tye geskryf is."
