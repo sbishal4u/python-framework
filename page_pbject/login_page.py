@@ -52,4 +52,4 @@ class LoginPage(BasePage):
         self.click(self.logout)
         time.sleep(2)
         self.click(self.logout1)
-        self.wait_for(self.loginButton)
+        # self.wait_for(self.loginButton)
